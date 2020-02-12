@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-10T09:01:24Z" product-name="csv2html">
+		<header/>
+		<body>
+			<trans-unit id="tx_csv2html_domain_model_import">
+				<source>Import</source>
+			</trans-unit>
+			<trans-unit id="tx_csv2html_domain_model_import.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_csv2html_domain_model_import.name">
+            	<source>Name</source>
+           	</trans-unit>
+		</body>
+	</file>
+</xliff>

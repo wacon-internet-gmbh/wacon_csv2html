@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.import.title
+                    </sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.csvFile>
+                        <TCEforms>
+                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvFile
+                            </label>
+                            <config>
+                                <type>inline</type>
+                                <maxitems>1</maxitems>
+                                <foreign_table>sys_file_reference</foreign_table>
+                                <!--<foreign_field>uid_foreign</foreign_field>-->
+                                <foreign_table_field>tablenames</foreign_table_field>
+                                <foreign_label>uid_local</foreign_label>
+                                <foreign_sortby>sorting_foreign</foreign_sortby>
+                                <foreign_selector>uid_local</foreign_selector>
+                                <foreign_selector_fieldTcaOverride type="array">
+                                    <config>
+                                        <appearance>
+                                            <elementBrowserType>file</elementBrowserType>
+                                            <elementBrowserAllowed>csv</elementBrowserAllowed>
+                                        </appearance>
+                                    </config>
+                                </foreign_selector_fieldTcaOverride>
+                                <foreign_match_fields type="array">
+                                    <fieldname>image</fieldname>
+                                </foreign_match_fields>
+                                <appearance type="array">
+                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
+                                    <headerThumbnail>
+                                        <field>uid_local</field>
+                                        <height>64</height>
+                                        <width>64</width>
+                                    </headerThumbnail>
+                                </appearance>
+                            </config>
+                    </TCEforms>
+                    </settings.csvFile>
+                    <settings.colDelimiter>
+                        <TCEforms>
+                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.colDelimiter
+                            </label>
+                            <config>
+                                <type>input</type>
+                                <size>3</size>
+                            </config>
+                        </TCEforms>
+                    </settings.colDelimiter>
+                    <settings.textDelimiter>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.textDelimiter
+                            </label>
+                            <config>
+                                <type>input</type>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.textDelimiter>
+                    <settings.csvCode>
+                        <TCEforms>
+                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvCode
+                            </label>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex type="array" index="1">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.0
+                                        </numIndex>
+                                        <numIndex index="1"/>
+                                    </numIndex>
+                                    <numIndex type="array" index="2">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.1
+                                        </numIndex>
+                                        <numIndex index="1">ISO-8859-1</numIndex>
+                                    </numIndex>
+                                    <numIndex type="array" index="3">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.2
+                                        </numIndex>
+                                        <numIndex index="1">ISO-8859-15</numIndex>
+                                    </numIndex>
+                                    <numIndex type="array" index="4">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.csv_code.3
+                                        </numIndex>
+                                        <numIndex index="1">windows-1252</numIndex>
+                                    </numIndex>
+                                    <numIndex type="array" index="6">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.6
+                                        </numIndex>
+                                        <numIndex index="1">UTF-8</numIndex>
+                                    </numIndex>
+                                </items>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.csvCode>
+                    <settings.tableClass>
+                        <TCEforms>
+                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:settings.tableClass</label>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </settings.tableClass>
+                    <settings.headerData>
+                        <TCEforms>
+                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:settings.headerData</label>
+                            <config>
+                                <type>radio</type>
+                                <items type="array">
+                                    <numIndex type="array" index="1">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksno
+                                        </numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                    <numIndex type="array" index="2">
+                                        <numIndex index="0">
+                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksyes
+                                        </numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                </items>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                            </config>
+                        </TCEforms>
+                    </settings.headerData>
+                    <settings.ownHeader>
+                    <TCEforms>
+                        <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.ownHeader</label>
+                        <config>
+                            <type>input</type>
+                            <size>30</size>
+                        </config>
+                    </TCEforms>
+                    </settings.ownHeader>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

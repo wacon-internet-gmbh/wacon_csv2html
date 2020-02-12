@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-10T09:01:24Z" product-name="csv2html">
+		<header/>
+		<body>
+			<trans-unit id="tx_csv2html_domain_model_import">
+				<source>Import</source>
+			</trans-unit>
+			<trans-unit id="tx_csv2html_domain_model_import.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_csv2html_html.name">
+				<source>CSV to HTML</source>
+			</trans-unit>
+			<trans-unit id="settings.csvFile">
+				<source>CSV-File</source>
+			</trans-unit>
+			<trans-unit id="settings.colDelimiter">
+				<source>Col Delimiter</source>
+			</trans-unit>
+			<trans-unit id="settings.textDelimiter">
+				<source>Text Delimiter</source>
+			</trans-unit>
+			<trans-unit id="settings.csvCode">
+			  <source>CSV Code</source>
+            </trans-unit>
+			<trans-unit id="settings.utf8Encoded">
+			  <source>UTF8 encoded?</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.0">
+			  <source>--- standard ---</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.1">
+			  <source>Western European, ISO Latin-1</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.2">
+			  <source>Western European, Latin-15</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.3">
+			  <source>Windows-1252</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.4">
+			  <source>Windows specific charset for Western European</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.csv_code.6">
+			  <source>UTF-8 Unicode</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.clicksyes">
+			  <source>Yes</source>
+            </trans-unit>
+			<trans-unit id="tx_csv2html.clicksno">
+			  <source>No</source>
+            </trans-unit>
+			<trans-unit id="settings.tableClass">
+			  <source>Table class (if desired)</source>
+            </trans-unit>
+			<trans-unit id="settings.tableSummary">
+			  <source>Table Summary</source>
+            </trans-unit>
+			<trans-unit id="settings.headerData">
+			  <source>Header data in 1st row?</source>
+            </trans-unit>
+			<trans-unit id="settings.ownHeader">
+			  <source>Your own header cols (Delimiters like above)</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
