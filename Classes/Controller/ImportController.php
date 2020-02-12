@@ -62,7 +62,7 @@ class ImportController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
             }
             if (($handle = fopen('fileadmin/'.$file, "r")) !== FALSE) {
                 $i=0;
-                while (($csv_array = fgetcsv ($handle)) !== FALSE ) {
+                while (($csv_array = fgetcsv ($handle, 0 , $col_delimiter, $text_delimiter)) !== FALSE ) {
                     if($i==0&&$headerData==1)
                         $ownHeaderData = mb_convert_encoding ( $csv_array, 'utf-8',$csvcode);
                             else
