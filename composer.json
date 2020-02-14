@@ -1,5 +1,5 @@
 {
-    "name": "wacon/csv2html",
+    "name": "wacon/wacon_csv2html",
     "type": "typo3-cms-extension",
     "description": "",
     "authors": [
@@ -13,16 +13,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Wacon\\Csv2html\\": "Classes"
+            "Wacon\\WaconCsv2html\\": "Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wacon\\Csv2html\\Tests\\": "Tests"
+            "Wacon\\WaconCsv2html\\Tests\\": "Tests"
         }
     },
     "replace": {
-        "wacon/csv2html": "self.version",
-        "typo3-ter/csv2html": "self.version"
+        "wacon/wacon_csv2html": "self.version",
+        "typo3-ter/wacon_csv2html": "self.version"
     }
 }

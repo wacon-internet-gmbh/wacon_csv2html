@@ -3,13 +3,13 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2020-02-10T09:01:24Z" product-name="csv2html">
 		<header/>
 		<body>
-			<trans-unit id="tx_csv2html_domain_model_import">
+			<trans-unit id="tx_waconcsv2html_domain_model_import">
 				<source>Import</source>
 			</trans-unit>
-			<trans-unit id="tx_csv2html_domain_model_import.name">
+			<trans-unit id="tx_waconcsv2html_domain_model_import.name">
 				<source>Name</source>
 			</trans-unit>
-			<trans-unit id="tx_csv2html_html.name">
+			<trans-unit id="tx_waconcsv2html_html.name">
 				<source>CSV to HTML</source>
 			</trans-unit>
 			<trans-unit id="settings.csvFile">
@@ -27,28 +27,28 @@
 			<trans-unit id="settings.utf8Encoded">
 			  <source>UTF8 encoded?</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.0">
+			<trans-unit id="tx_waconcsv2html.csv_code.0">
 			  <source>--- standard ---</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.1">
+			<trans-unit id="tx_waconcsv2html.csv_code.1">
 			  <source>Western European, ISO Latin-1</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.2">
+			<trans-unit id="tx_waconcsv2html.csv_code.2">
 			  <source>Western European, Latin-15</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.3">
+			<trans-unit id="tx_waconcsv2html.csv_code.3">
 			  <source>Windows-1252</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.4">
+			<trans-unit id="tx_waconcsv2html.csv_code.4">
 			  <source>Windows specific charset for Western European</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.csv_code.6">
+			<trans-unit id="tx_waconcsv2html.csv_code.6">
 			  <source>UTF-8 Unicode</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.clicksyes">
+			<trans-unit id="tx_waconcsv2html.clicksyes">
 			  <source>Yes</source>
             </trans-unit>
-			<trans-unit id="tx_csv2html.clicksno">
+			<trans-unit id="tx_waconcsv2html.clicksno">
 			  <source>No</source>
             </trans-unit>
 			<trans-unit id="settings.tableClass">

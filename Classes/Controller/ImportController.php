@@ -1,10 +1,10 @@
 <?php
-namespace Wacon\Csv2html\Controller;
+namespace Wacon\WaconCsv2html\Controller;
 
 
 /***
  *
- * This file is part of the "csv2html" Extension for TYPO3 CMS.
+ * This file is part of the "wacon_csv2html" Extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.

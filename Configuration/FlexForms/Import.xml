@@ -4,14 +4,14 @@
         <sDEF>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.import.title
+                    <sheetTitle>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.import.title
                     </sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                     <settings.csvFile>
                         <TCEforms>
-                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvFile
+                            <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvFile
                             </label>
                             <config>
                                 <type>inline</type>
@@ -46,7 +46,7 @@
                     </settings.csvFile>
                     <settings.colDelimiter>
                         <TCEforms>
-                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.colDelimiter
+                            <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.colDelimiter
                             </label>
                             <config>
                                 <type>input</type>
@@ -57,7 +57,7 @@
                     <settings.textDelimiter>
                         <TCEforms>
                             <label>
-                                LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.textDelimiter
+                                LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.textDelimiter
                             </label>
                             <config>
                                 <type>input</type>
@@ -67,38 +67,38 @@
                     </settings.textDelimiter>
                     <settings.csvCode>
                         <TCEforms>
-                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvCode
+                            <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.csvCode
                             </label>
                             <config>
                                 <type>select</type>
                                 <items type="array">
                                     <numIndex type="array" index="1">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.0
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.0
                                         </numIndex>
                                         <numIndex index="1"/>
                                     </numIndex>
                                     <numIndex type="array" index="2">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.1
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.1
                                         </numIndex>
                                         <numIndex index="1">ISO-8859-1</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="3">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.2
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.2
                                         </numIndex>
                                         <numIndex index="1">ISO-8859-15</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="4">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.csv_code.3
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.csv_code.3
                                         </numIndex>
                                         <numIndex index="1">windows-1252</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="6">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.6
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.6
                                         </numIndex>
                                         <numIndex index="1">UTF-8</numIndex>
                                     </numIndex>
@@ -110,7 +110,7 @@
                     </settings.csvCode>
                     <settings.tableClass>
                         <TCEforms>
-                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:settings.tableClass</label>
+                            <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:settings.tableClass</label>
                             <config>
                                 <type>input</type>
                                 <size>20</size>
@@ -119,19 +119,19 @@
                     </settings.tableClass>
                     <settings.headerData>
                         <TCEforms>
-                            <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:settings.headerData</label>
+                            <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:settings.headerData</label>
                             <config>
                                 <type>radio</type>
                                 <items type="array">
                                     <numIndex type="array" index="1">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksno
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksno
                                         </numIndex>
                                         <numIndex index="1">0</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="2">
                                         <numIndex index="0">
-                                            LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksyes
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksyes
                                         </numIndex>
                                         <numIndex index="1">1</numIndex>
                                     </numIndex>
@@ -143,7 +143,7 @@
                     </settings.headerData>
                     <settings.ownHeader>
                     <TCEforms>
-                        <label>LLL:EXT:csv2html/Resources/Private/Language/locallang_db.xlf:settings.ownHeader</label>
+                        <label>LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:settings.ownHeader</label>
                         <config>
                             <type>input</type>
                             <size>30</size>

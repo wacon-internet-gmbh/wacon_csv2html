@@ -1,15 +1,15 @@
 
-plugin.tx_csv2html_html {
+plugin.tx_waconcsv2html_html {
     view {
         templateRootPaths.0 = EXT:{extension.shortExtensionKey}/Resources/Private/Templates/
-        templateRootPaths.1 = {$plugin.tx_csv2html_html.view.templateRootPath}
-        partialRootPaths.0 = EXT:csv2html/Resources/Private/Partials/
-        partialRootPaths.1 = {$plugin.tx_csv2html_html.view.partialRootPath}
-        layoutRootPaths.0 = EXT:tx_csv2html/Resources/Private/Layouts/
-        layoutRootPaths.1 = {$plugin.tx_csv2html_html.view.layoutRootPath}
+        templateRootPaths.1 = {$plugin.tx_waconcsv2html_html.view.templateRootPath}
+        partialRootPaths.0 = EXT:wacon_csv2html/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_waconcsv2html_html.view.partialRootPath}
+        layoutRootPaths.0 = EXT:wacon_csv2html/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_waconcsv2html_html.view.layoutRootPath}
     }
     persistence {
-        storagePid = {$plugin.tx_csv2html_html.persistence.storagePid}
+        storagePid = {$plugin.tx_waconcsv2html_html.persistence.storagePid}
         #recursive = 1
     }
     features {

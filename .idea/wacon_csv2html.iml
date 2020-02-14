@@ -2,8 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Classes" isTestSource="false" packagePrefix="Wacon\Csv2html\" />
-      <sourceFolder url="file://$MODULE_DIR$/Tests" isTestSource="true" packagePrefix="Wacon\Csv2html\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes" isTestSource="false" packagePrefix="Wacon\WaconCsv2html\" />
+      <sourceFolder url="file://$MODULE_DIR$/Tests" isTestSource="true" packagePrefix="Wacon\WaconCsv2html\Tests\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
