@@ -40,7 +40,7 @@ call_user_func(
 		
 			$iconRegistry->registerIcon(
 				'csv2html-plugin-html',
-				\TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+				\TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
 				['source' => 'EXT:wacon_csv2html/Resources/Public/Icons/Extension.png']
 			);
 		
