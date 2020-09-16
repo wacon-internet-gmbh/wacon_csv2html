@@ -56,11 +56,11 @@ class ImportController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
                     $fileReference = $resourceFactory->getFileReferenceObject($itemUid);
                     $fileArray = $fileReference->getProperties();
                     $file=$fileArray['identifier'];
-
+                    $storage = $fileReference->getStorage()->getConfiguration()['basePath'];
                     array_push($csvItems, $fileArray);
                 }
             }
-            if (($handle = fopen('fileadmin/'.$file, "r")) !== FALSE) {
+            if (($handle = fopen($storage.$file, "r")) !== FALSE) {
                 $i=0;
                 while (($csv_array = fgetcsv ($handle, 0 , $col_delimiter, $text_delimiter)) !== FALSE ) {
                     if($i==0&&$headerData==1)
