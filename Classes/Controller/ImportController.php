@@ -45,6 +45,8 @@ class ImportController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
             $resourceFactory = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Resource\\ResourceFactory');
             $csvItems = array();
             $csvItemUids = $this->settings['csvFile'];
+           
+         
             $csvItemUids = explode(',', $csvItemUids);
 
             if (!empty($csvItemUids)) {
@@ -54,13 +56,16 @@ class ImportController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
                     $itemUid = $csvItemUids[$i];
 
                     $fileReference = $resourceFactory->getFileReferenceObject($itemUid);
+                    \TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($fileReference);
+                    //\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($this->settings['csvFile']);
                     $fileArray = $fileReference->getProperties();
                     $file=$fileArray['identifier'];
-                    $storage = $fileReference->getStorage()->getConfiguration()['basePath'];
+                    \TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($file);
                     array_push($csvItems, $fileArray);
                 }
             }
-            if (($handle = fopen($storage.$file, "r")) !== FALSE) {
+     
+            if (($handle = fopen('fileadmin/'.$file, "r")) !== FALSE) {
                 $i=0;
                 while (($csv_array = fgetcsv ($handle, 0 , $col_delimiter, $text_delimiter)) !== FALSE ) {
                     if($i==0&&$headerData==1)

@@ -22,25 +22,16 @@
                                 <foreign_label>uid_local</foreign_label>
                                 <foreign_sortby>sorting_foreign</foreign_sortby>
                                 <foreign_selector>uid_local</foreign_selector>
-                                <foreign_selector_fieldTcaOverride type="array">
+                                <overrideChildTca>
+                                <columns><uid_local>
                                     <config>
                                         <appearance>
                                             <elementBrowserType>file</elementBrowserType>
                                             <elementBrowserAllowed>csv</elementBrowserAllowed>
                                         </appearance>
                                     </config>
-                                </foreign_selector_fieldTcaOverride>
-                                <foreign_match_fields type="array">
-                                    <fieldname>image</fieldname>
-                                </foreign_match_fields>
-                                <appearance type="array">
-                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
-                                    <headerThumbnail>
-                                        <field>uid_local</field>
-                                        <height>64</height>
-                                        <width>64</width>
-                                    </headerThumbnail>
-                                </appearance>
+                                     </uid_local></columns>
+                                </overrideChildTca>
                             </config>
                     </TCEforms>
                     </settings.csvFile>
@@ -71,34 +62,35 @@
                             </label>
                             <config>
                                 <type>select</type>
+                                <renderType>selectSingle</renderType>
                                 <items type="array">
                                     <numIndex type="array" index="1">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.0
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_waconcsv2html.csv_code.0
                                         </numIndex>
                                         <numIndex index="1"/>
                                     </numIndex>
                                     <numIndex type="array" index="2">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.1
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_waconcsv2html.csv_code.1
                                         </numIndex>
                                         <numIndex index="1">ISO-8859-1</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="3">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.2
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_waconcsv2html.csv_code.2
                                         </numIndex>
                                         <numIndex index="1">ISO-8859-15</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="4">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.csv_code.3
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_waconcsv2html.csv_code.3
                                         </numIndex>
                                         <numIndex index="1">windows-1252</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="6">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_csv2html.csv_code.6
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xlf:tx_waconcsv2html.csv_code.6
                                         </numIndex>
                                         <numIndex index="1">UTF-8</numIndex>
                                     </numIndex>
@@ -125,13 +117,13 @@
                                 <items type="array">
                                     <numIndex type="array" index="1">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksno
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_waconcsv2html.clicksno
                                         </numIndex>
                                         <numIndex index="1">0</numIndex>
                                     </numIndex>
                                     <numIndex type="array" index="2">
                                         <numIndex index="0">
-                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_csv2html.clicksyes
+                                            LLL:EXT:wacon_csv2html/Resources/Private/Language/locallang_db.xml:tx_waconcsv2html.clicksyes
                                         </numIndex>
                                         <numIndex index="1">1</numIndex>
                                     </numIndex>
